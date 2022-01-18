@@ -2,7 +2,7 @@ import time
 import random
 number = 0
 index = 0
-B = 570315677726089
+B = input("put in the encryption key")
 def Enter(password):
     if int(password)*int(password) == B:
         print("granted")
